@@ -12,70 +12,70 @@
 / {
         combos {
             compatible = "zmk,combos";
-            combo_LPAR {
+            combo_lpar {
                 timeout-ms = <50>;
                 // P, B
                 key-positions = <4 5>;
                 bindings = <&kp LPAR>;
             };
 
-            combo_RPAR {
+            combo_rpar {
                 timeout-ms = <50>;
                 // J, L
                 key-positions = <6 7>;
                 bindings = <&kp RPAR>;
             };
 
-            combo_LBKT {
+            combo_lbkt {
                 timeout-ms = <50>;
                 // T, G
                 key-positions = <16 17>;
                 bindings = <&kp LBKT>;
             };
 
-            combo_RBKT {
+            combo_rbkt {
                 timeout-ms = <50>;
                 // M, N
                 key-positions = <18 19>;
                 bindings = <&kp RBKT>;
             };
 
-            combo_TILDE {
+            combo_tilde {
                 timeout-ms = <50>;
                 // I,O
                 key-positions = <21 22>;
                 bindings = <&kp TILDE>;
             };
 
-            combo_GRAVE {
+            combo_grave {
                 timeout-ms = <50>;
                 // O, RET
                 key-positions = <22 23>;
                 bindings = <&kp GRAVE>;
             };
 
-            combo_LBRC {
+            combo_lbrc {
                 timeout-ms = <50>;
                 // D, V
                 key-positions = <28 29>;
                 bindings = <&kp LBRC>;
             };
 
-            combo_LBRC {
+            combo_rbrc {
                 timeout-ms = <50>;
                 // K, H
                 key-positions = <30 31>;
                 bindings = <&kp RBRC>;
             };
 
-            combo_BSLH {
+            combo_bslh {
                 timeout-ms = <50>;
                 // ., /
                 key-positions = <33 34>;
                 bindings = <&kp BSLH>;
             };
 
-            combo_PIPE {
+            combo_pipe {
                 timeout-ms = <50>;
                 // /, ALT
                 key-positions = <34 35>;
