@@ -87,19 +87,21 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
+                        display-name="Base";
 // -----------------------------------------------------------------------------------------
 // | TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L  |  U  |  Y  |  ;  | '   |
 // | ESC |  A  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E  |  I  |  O  | RET |
-// | WIN |  Z  |  X  |  C  |  D  |  V  |   |  N  |  M  |  ,  |  .  |  /  | ALT |
-//                   | LWR |CTRL |SHFT |   | SPC | BSP | UPR |
+// | CTL |  Z  |  X  |  C  |  D  |  V  |   |  N  |  M  |  ,  |  .  |  /  | ALT |
+//                   | GUI | LWR |SHFT |   | SPC | BSP | UPR |
                         bindings = <
-   &kp TAB  &kp Q &kp W &kp F &kp P   &kp B      &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp SQT
-   &kp ESC  &kp A &kp R &kp S &kp T   &kp G      &kp M &kp N  &kp E     &kp I   &kp O    &kp RET
-   &kp LGUI &kp Z &kp X &kp C &kp D   &kp V      &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RALT
-                      &mo 1 &kp LCTRL &kp LSHFT  &kp SPACE &kp BSPC &mo 2
+   &kp TAB   &kp Q &kp W &kp F &kp P   &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp SQT
+   &kp ESC   &kp A &kp R &kp S &kp T   &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp RET
+   &kp LCTRL &kp Z &kp X &kp C &kp D   &kp V      &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RALT
+                    &kp LGUI &mo 1 &kp LSHFT  &kp SPACE &kp BSPC &mo 2
                         >;
                 };
                 lower_layer {
+                        display-name="Sym/Num";
 // -----------------------------------------------------------------------------------------
 // |    |  !  |  @  |  #  |  $  |  %  |   |    |  7  |  8  |  9  |  +  |     |
 // |    |  ^  |  &  |  *  |  -  |  =  |   |  0 |  4  |  5  |  6  |  -  |     |
@@ -114,6 +116,7 @@
                 };
 
                 raise_layer {
+                        display-name="Func";
 // -----------------------------------------------------------------------------------------
 // |    | F1  | F2  | F3  | F4  | F5  |   |  F6  |  F7 |  F8 |  F9 | F10 |     |
 // |    | F11 | F12 | VUP | VDN |PLAY |   | RCLK |  LT |  DN |  UP |  RT |     |
