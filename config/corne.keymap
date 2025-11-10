@@ -109,7 +109,7 @@
 //                  |     |     |     |   |    |     |     |
                         bindings = <
    &trans     &kp EXCL &kp AT &kp HASH &kp DLLR  &kp PRCNT &kp CARET &kp AMPS &kp STAR &trans &trans  &trans
-   &caps_word &kp N1   &kp N2 &kp N3   &kp N4 &kp N5  &kp PIPE &kp EQUAL &kp CARAT &kp MINUS &trans &trans
+   &caps_word &kp N1   &kp N2 &kp N3   &kp N4 &kp N5  &kp PIPE &kp EQUAL &kp CARET &kp MINUS &trans &trans
    &trans     &kp N6   &kp N7 &kp N8   &kp N9 &kp N0  &kp BSLH &kp PLUS  &kp TILDE &kp UNDER &trans &trans
                              &trans   &trans    &trans     &trans  &trans &trans
                         >;
